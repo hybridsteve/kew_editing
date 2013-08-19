@@ -10,10 +10,10 @@ def begin_html(title):
 	<html lang='eng'>
 		<head>
 			<meta charset='utf-8'>
-			<title>Kristen Ebert-Wagner Editing: {{ title }}</title>
+			<title>Kristen Ebert-Wagner Editing: %s</title>
 			<link rel='stylesheet' type='text/css' href='/static/inengmaj.css' />
 		</head>
-		<body>"""
+		<body>""" % (title)
 	return html
 
 # Ends html document.
@@ -143,7 +143,7 @@ def faq(request):
 				<br/>APA 5
 				<br/>APA 6
 				<br/>ASA 3
-				<br/>Chicaco Manual of Style (15 and 16)</p>
+				<br/>Chicago Manual of Style (15 and 16)</p>
 			<p><span class='maroon-text'>as well as variants of APA for</span>
 				<br/>Argosy University
 				<br/>Nova Southeastern University</p>
