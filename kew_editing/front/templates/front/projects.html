@@ -1,0 +1,22 @@
+<div class='content inner-padding'>
+{% if project_types %}
+	<ul class='project-type-list'>
+	{% for project_type in project_types %}
+		<li><h6>{{ project_type }}</h6></li>
+		{% if projects %}
+		<ul class='project-list'>
+		{% for project in projects %}
+			{% if project.type == project_type %}
+			<li>{{ project.complete_citation|safe }}</li>
+			{% endif %}
+		{% endfor %}
+		</ul>
+		{% else %}
+		<p>There are no projects to display.</p>
+		{% endif %}
+	{% endfor %}
+	</ul>
+{% else %}
+	<p>There are no project categories.</p>
+{% endif %}
+</div>

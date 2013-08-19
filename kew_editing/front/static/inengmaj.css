@@ -1,0 +1,95 @@
+body {
+	width: 960px;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 70px 0 0;
+}
+
+body p {
+	font-family: 'verdana', serif;
+}
+
+.maroon-text,
+.content h6 {
+	color: #800000;
+}
+
+.page-header {
+	color: #800000;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.page-header span {
+	color: #000000;
+	font-weight: normal;
+}
+
+.page-header .editor {
+	font-weight: bold;
+}
+
+.navigation a,
+.navigation a:visited {
+	color: #800000;
+	text-decoration: none;
+}
+
+.navigation ul {
+	border-color: #c0c0c0;
+	border-style: solid;
+	border-width: 2px 0;
+	font-family: 'arial', sans-serif;
+	font-size: 1.2em;
+	list-style-type: none;
+	margin: 8px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.navigation li {
+	display: inline-block;
+	margin: 5px 30px;
+}
+
+.content.inner-padding {
+	margin: 0 60px 40px;
+}
+
+.content h6 {
+	border-color: #c0c0c0;
+	border-style: solid;
+	border-width: 0 0 1px;
+	font-family: 'verdana', serif;
+	font-size: 1em;
+	margin-bottom: 0;
+}
+
+h6 + p {
+	margin-top: 3px;
+}
+
+hr {
+	border-color: #c0c0c0;
+	border-style: solid;
+	border-width: 1px 0 0;
+}
+
+ul.project-type-list,
+ul.project-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.footer .copyright {
+	font-size: 0.8em;
+}
